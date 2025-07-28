@@ -92,4 +92,6 @@ Design for:
 - Use clean spacing, rounded corners, and shadows for card UI
 - Dashboard pages should have consistent layout
 - Include loading states, form validation indicators
-
+ -----
+ UI/UX design for GreenBridge
+ https://www.figma.com/make/KAHOpsTRgyvCO4vX2vbyCm/Green-Bridge-Platform?node-id=0-1&t=6keNOPcOB2sFDpIn-1
