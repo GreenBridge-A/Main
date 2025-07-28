@@ -94,4 +94,4 @@ Design for:
 - Include loading states, form validation indicators
  -----
  UI/UX design for GreenBridge
- https://www.figma.com/make/KAHOpsTRgyvCO4vX2vbyCm/Green-Bridge-Platform?node-id=0-1&t=6keNOPcOB2sFDpIn-1
+https://www.figma.com/make/KAHOpsTRgyvCO4vX2vbyCm/Green-Bridge-Platform?node-id=0-1&p=f&t=hKbHr7aRVB0SNBS1-0&fullscreen=1
