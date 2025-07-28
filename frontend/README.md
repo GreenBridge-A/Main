@@ -1,95 +1,70 @@
-📌 Project Title: Green Bridge
+# Getting Started with Create React App
 
-🧠 Project Summary:
-Design a modern, clean, and responsive frontend UI for "Green Bridge", a MERN-stack platform that connects farmers and factories to exchange organic/agricultural waste for industrial reuse. The system includes 3 roles: Farmer, Factory, and Admin.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-🎯 Design Goal:
-Create a visually appealing, user-friendly web app design that enables:
-- Farmers to post listings of available waste
-- Factories to browse and offer on listings
-- Admins to monitor, verify, and manage users and listings
+## Available Scripts
 
-🎨 Style Preferences:
-- Color scheme: Green (#4CAF50), White, Earth tones, and Light grey backgrounds
-- Fonts: Use modern, accessible fonts like Roboto or Inter
-- Buttons: Rounded, bold CTA buttons with hover effects
-- Consistent layout grid and spacing
+In the project directory, you can run:
 
----
+### `npm start`
 
-🔖 Pages to Include:
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-1. **Landing Page (Home)**
-   - Hero section with banner image and CTA
-   - Features of platform
-   - Role-based navigation buttons (Farmer, Factory, Admin)
-   - Testimonials or how it works
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-2. **Login / Register**
-   - Role selector (Farmer / Factory / Admin)
-   - Email & Password fields
-   - Toggle between login/register
+### `npm test`
 
-3. **Farmer Dashboard**
-   - Sidebar (Dashboard, Create Listing, View Listings, Profile, Logout)
-   - Stats cards (Total Listings, Offers Received)
-   - Recent offers table or cards
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-4. **Factory Dashboard**
-   - Sidebar (Browse Listings, Contacted Farmers, My Offers, Profile, Logout)
-   - Browse Listings (with filter/search)
-   - Offer modal popup
+### `npm run build`
 
-5. **Admin Dashboard**
-   - User Management section (Farmers/Factories)
-   - Listing Approval view
-   - Dispute resolution center
-   - Analytics cards (Total Users, Active Listings, Flags)
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-6. **Create Listing Page**
-   - Form: Product name, Type, Quantity, Description, Upload Image
-   - Submit button
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-7. **Listings Page**
-   - Grid of product cards
-   - Each card: Image, Quantity, Contact Farmer / Make Offer
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-8. **Contacted Farmers Page (Factory role)**
-   - List of farmers contacted
-   - Show name, product, contact info, status
+### `npm run eject`
 
-9. **My Offers Page**
-   - Offers sent by factory
-   - Show listing, status (accepted/rejected/pending)
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-10. **Product Review Page**
-    - After order, factory can give rating and write review
-    - 5-star input + comment box
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-11. **Profile Page**
-    - Show user details
-    - Option to edit
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-🧩 Reusable Components:
-- Navbar (with login/logout/user role handling)
-- Sidebar (for each role)
-- Product Card
-- Offer Modal
-- Footer
+## Learn More
 
-📱 Responsiveness:
-Design for:
-- Desktop (main)
-- Tablet
-- Mobile (for key pages only like Login, Listings)
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-🔗 Additional Notes:
-- Follow modern dashboard layout practices
-- Use clean spacing, rounded corners, and shadows for card UI
-- Dashboard pages should have consistent layout
-- Include loading states, form validation indicators
+### Code Splitting
 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
